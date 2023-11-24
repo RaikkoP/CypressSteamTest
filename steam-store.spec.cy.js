@@ -1,3 +1,4 @@
+//  Testime kas saame veebilehega ühendust luua
 describe('Visiting Steam and checking if hover effects work', () => {
   before(() => {
     cy.visit('https://store.steampowered.com/')
@@ -7,6 +8,7 @@ describe('Visiting Steam and checking if hover effects work', () => {
   })
 })
 
+//Katsetame, et kas otsingu mootor töötab veebilehel ja kas me saame otsingumootori abil minna mängu kodulehele
 describe('Using Searchbar', () => {
   before(() => {
     cy.visit('https://store.steampowered.com/')
@@ -19,6 +21,7 @@ describe('Using Searchbar', () => {
   })
 });
 
+//Testime, et kas mängu kodulehel peal läheb trailer video tööle või mitte.
 describe('Checking game storpage functionality', () => {
   before(() => {
     cy.visit('https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/')
