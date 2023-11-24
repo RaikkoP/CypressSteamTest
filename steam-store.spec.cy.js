@@ -3,9 +3,6 @@ describe('Visiting Steam and checking if hover effects work', () => {
   before(() => {
     cy.visit('https://store.steampowered.com/')
   })
-  it('Check hover events', () => {
-    
-  })
 })
 
 //Katsetame, et kas otsingu mootor töötab veebilehel ja kas me saame otsingumootori abil minna mängu kodulehele
